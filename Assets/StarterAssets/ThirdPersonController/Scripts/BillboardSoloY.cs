@@ -1,0 +1,120 @@
+using UnityEngine;
+
+/// <summary>
+/// Hace que este objeto (por ejemplo, un plano con el personaje 2D)
+/// siempre mire hacia la cámara, pero SOLO rotando sobre el eje Y.
+/// 
+/// Esto evita que el sprite/plano se incline raro cuando la cámara
+/// está muy arriba o muy abajo del personaje.
+/// 
+/// Ideal para:
+/// - personajes 2D dentro de una escena 3D
+/// - planos con animaciones proyectadas
+/// - billboards tipo sprite en mundo 3D
+/// </summary>
+public class BillboardSoloY : MonoBehaviour
+{
+    [Header("Referencia de cámara")]
+    [SerializeField] private Camera camaraPrincipal;
+
+    [Header("Configuración")]
+    [Tooltip("Si está activado, buscará Camera.main automáticamente si no asignas una cámara manualmente.")]
+    [SerializeField] private bool buscarCameraMainSiFalta = true;
+
+    [Tooltip("Rotación adicional en Y. Útil si el plano queda mirando al lado contrario.")]
+    [SerializeField] private float rotacionExtraY = 180f;
+
+    [Tooltip("Velocidad de giro. Si es 0 o menor, gira instantáneamente.")]
+    [SerializeField] private float velocidadRotacion = 0f;
+
+    [Header("Estabilidad")]
+    [Tooltip("Distancia mínima horizontal para evitar errores cuando la cámara está casi exactamente encima del personaje.")]
+    [SerializeField] private float distanciaHorizontalMinima = 0.01f;
+
+    // Guarda la última dirección válida para evitar movimientos extraños
+    // si la cámara queda casi exactamente encima del objeto.
+    private Vector3 ultimaDireccionValida = Vector3.forward;
+
+    private void Awake()
+    {
+        // Si no se asignó cámara en el Inspector, intentamos buscar la principal.
+        if (camaraPrincipal == null && buscarCameraMainSiFalta)
+        {
+            camaraPrincipal = Camera.main;
+        }
+    }
+
+    private void LateUpdate()
+    {
+        // LateUpdate es ideal para esto porque la cámara normalmente
+        // ya terminó de moverse en este frame.
+        ActualizarRotacion();
+    }
+
+    /// <summary>
+    /// Calcula la rotación para que el objeto mire a la cámara
+    /// únicamente sobre el eje Y.
+    /// </summary>
+    private void ActualizarRotacion()
+    {
+        // Si no hay cámara, no hacemos nada.
+        if (camaraPrincipal == null)
+            return;
+
+        // 1. Tomamos la posición de la cámara.
+        Vector3 posicionCamara = camaraPrincipal.transform.position;
+
+        // 2. Calculamos la dirección desde este objeto hacia la cámara.
+        Vector3 direccion = posicionCamara - transform.position;
+
+        // 3. Eliminamos la diferencia vertical para que SOLO rote en Y.
+        //    Esto evita que el plano se incline cuando la cámara sube o baja.
+        direccion.y = 0f;
+
+        // 4. Si la cámara está casi exactamente encima del personaje,
+        //    la dirección horizontal puede quedar demasiado pequeña.
+        //    En ese caso usamos la última dirección válida para evitar
+        //    rotaciones raras o "temblores".
+        if (direccion.sqrMagnitude < distanciaHorizontalMinima * distanciaHorizontalMinima)
+        {
+            direccion = ultimaDireccionValida;
+        }
+        else
+        {
+            ultimaDireccionValida = direccion.normalized;
+            direccion = ultimaDireccionValida;
+        }
+
+        // 5. Creamos la rotación objetivo.
+        Quaternion rotacionObjetivo = Quaternion.LookRotation(direccion, Vector3.up);
+
+        // 6. Aplicamos una rotación extra por si el plano/sprite
+        //    está "al revés" respecto a su frente real.
+        rotacionObjetivo *= Quaternion.Euler(0f, rotacionExtraY, 0f);
+
+        // 7. Rotamos el objeto.
+        //    - Si velocidadRotacion <= 0: rotación instantánea.
+        //    - Si velocidadRotacion > 0: rotación suave.
+        if (velocidadRotacion <= 0f)
+        {
+            transform.rotation = rotacionObjetivo;
+        }
+        else
+        {
+            transform.rotation = Quaternion.Slerp(
+                transform.rotation,
+                rotacionObjetivo,
+                velocidadRotacion * Time.deltaTime
+            );
+        }
+    }
+
+    /// <summary>
+    /// Permite asignar la cámara desde otros scripts.
+    /// </summary>
+    /// <param name="nuevaCamara">Cámara que el billboard debe mirar.</param>
+    public void AsignarCamara(Camera nuevaCamara)
+    {
+        camaraPrincipal = nuevaCamara;
+    }
+}
