@@ -1,0 +1,1089 @@
+fileFormatVersion: 2
+guid: f1d5f4708693e9b46a44376240e93f0e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Atlas interfaces_0
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 2996
+        width: 977
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0779020fc6dbe3645a5cae43dcfed281
+      internalID: 231933112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_1
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 2618
+        width: 1047
+        height: 1054
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee428eff22340f45ba9121245173973
+      internalID: -48402932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_2
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 2923
+        width: 758
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fe925f168ab7b4f9961e06ff97fb04
+      internalID: 1175761413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_3
+      rect:
+        serializedVersion: 2
+        x: 4253
+        y: 3110
+        width: 240
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef3265ca2e137a41bff02688abdd58d
+      internalID: 147533912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_4
+      rect:
+        serializedVersion: 2
+        x: 4611
+        y: 3074
+        width: 308
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d35cb7bac5e7494cbd9d3b3a4b7ed50
+      internalID: -1426087401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_5
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 2365
+        width: 1063
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebfd34d5a2161f4b9e40c5be35ad256
+      internalID: -749619604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_6
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 2619
+        width: 160
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563754b572a11134194acdfedec56298
+      internalID: 167333822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_7
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 2619
+        width: 159
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef07d48e1a4395d4aa1172c32b4aa87b
+      internalID: 122963151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_8
+      rect:
+        serializedVersion: 2
+        x: 3056
+        y: 2649
+        width: 450
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfc09db599c5f9498086155458c5e11
+      internalID: 1645013223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_9
+      rect:
+        serializedVersion: 2
+        x: 3935
+        y: 2673
+        width: 208
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a271933ec8b1c541a5cfa6f3403b357
+      internalID: -1700208364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_10
+      rect:
+        serializedVersion: 2
+        x: 4254
+        y: 2651
+        width: 242
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea65b467b5cd964d97ffd379013687f
+      internalID: 78122920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_11
+      rect:
+        serializedVersion: 2
+        x: 4623
+        y: 2706
+        width: 245
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d604a663ffd19cf42bc5c87ab15172d5
+      internalID: 2124562503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_12
+      rect:
+        serializedVersion: 2
+        x: 3082
+        y: 2553
+        width: 74
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b1064d5f13c8947b3fa35174001d1c
+      internalID: 436341377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_13
+      rect:
+        serializedVersion: 2
+        x: 3923
+        y: 2345
+        width: 264
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc51fcfa34d9fc4a8b7e8776d21c8fe
+      internalID: -962868698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_14
+      rect:
+        serializedVersion: 2
+        x: 4648
+        y: 2321
+        width: 235
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406123522f5f0ac4d8afdd5d8a66cc86
+      internalID: -1093137521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_15
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1091
+        width: 2342
+        height: 1320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6f26515006bea41bef2a64c03ba92a
+      internalID: -1519702461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_16
+      rect:
+        serializedVersion: 2
+        x: 4307
+        y: 2313
+        width: 242
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c653a671a68d3b42b9770e8ef377adb
+      internalID: 281494718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2040
+        width: 853
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 149, y: 46, z: 57, w: 116}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc25b991d6d77134d996495b816a380a
+      internalID: 1626725880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_18
+      rect:
+        serializedVersion: 2
+        x: 4103
+        y: 1998
+        width: 537
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9084991e4eaef84392bc7903a765963
+      internalID: -34248063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_19
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1746
+        width: 461
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61c937ef815c7d4c9b20e8ad979e15d
+      internalID: -2056324169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_20
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1766
+        width: 164
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46552c06b6e4c8449b1abb10153a97c5
+      internalID: 119006867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_21
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1766
+        width: 164
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacc40c9a468e6b4bbc5dcf3e150332a
+      internalID: -1741669473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_22
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1766
+        width: 161
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492cb5ffffe5b6d41a7ff9f9eba16c2d
+      internalID: -294666184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_23
+      rect:
+        serializedVersion: 2
+        x: 4058
+        y: 1762
+        width: 569
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40755781bc21d984c897303b0b1a6c53
+      internalID: 1777032131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_24
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1537
+        width: 195
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f2d4951200dc34e9c2657f66039fa8
+      internalID: -1108956859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_25
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1544
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07816dba4e57f7842860b5a8cd9de531
+      internalID: -878235950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_26
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1538
+        width: 226
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150c55abf321d0348a3b77a4f29fef5b
+      internalID: -1872293307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_27
+      rect:
+        serializedVersion: 2
+        x: 4077
+        y: 1479
+        width: 608
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ba399cc66c2b94daa83870b5e7c755
+      internalID: 1266806995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_28
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1090
+        width: 636
+        height: 354
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a070661854dd75b42a23af5e57c11aac
+      internalID: -364913392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_32
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1292
+        width: 129
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ea3ba1d9afa384f9829b63a362d2dd
+      internalID: 558435084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_33
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1299
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31d31a3dfb7f4340b6725797a4fc669
+      internalID: 1489771305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_34
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1292
+        width: 101
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b07bcf7a0e71141a02c7d552be8db1
+      internalID: -1417787958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_35
+      rect:
+        serializedVersion: 2
+        x: 4072
+        y: 1236
+        width: 600
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4507eaed35db7e74c9eb2934accdf472
+      internalID: -1891036799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_37
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 78
+        width: 913
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b396f66a16f9f99498088c2aa1aa5459
+      internalID: 537124441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_38
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 699
+        width: 479
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82b396efac19cf4eaa0c8415b14d772
+      internalID: 1101877646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_39
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 11
+        width: 646
+        height: 732
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ae6144932cab741875e7e8d985546a
+      internalID: 1561909844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_40
+      rect:
+        serializedVersion: 2
+        x: 2765
+        y: 64
+        width: 1343
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0381f3d1b2bb841b56929915515938
+      internalID: 1779912750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_41
+      rect:
+        serializedVersion: 2
+        x: 4222
+        y: 247
+        width: 585
+        height: 761
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee83ef6bd0439a54aa584f151f4b56c3
+      internalID: 1039312000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_42
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 506
+        width: 459
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd5eb41e4bf6ed499e3dfe650781e5c
+      internalID: -1205483648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_43
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 312
+        width: 485
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f58793d04484646bc8978f5f9d1fe0
+      internalID: -872398768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_44
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 85
+        width: 480
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7d04debfc713841b003ed88465c262
+      internalID: -2038430162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas interfaces_45
+      rect:
+        serializedVersion: 2
+        x: 4166
+        y: 42
+        width: 812
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b31b589c067fb247b2166dfe4021ece
+      internalID: 887651313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a152346e2146ad54cbd6b78774728766
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Atlas interfaces_0: 231933112
+      Atlas interfaces_1: -48402932
+      Atlas interfaces_10: 78122920
+      Atlas interfaces_11: 2124562503
+      Atlas interfaces_12: 436341377
+      Atlas interfaces_13: -962868698
+      Atlas interfaces_14: -1093137521
+      Atlas interfaces_15: -1519702461
+      Atlas interfaces_16: 281494718
+      Atlas interfaces_17: 1626725880
+      Atlas interfaces_18: -34248063
+      Atlas interfaces_19: -2056324169
+      Atlas interfaces_2: 1175761413
+      Atlas interfaces_20: 119006867
+      Atlas interfaces_21: -1741669473
+      Atlas interfaces_22: -294666184
+      Atlas interfaces_23: 1777032131
+      Atlas interfaces_24: -1108956859
+      Atlas interfaces_25: -878235950
+      Atlas interfaces_26: -1872293307
+      Atlas interfaces_27: 1266806995
+      Atlas interfaces_28: -364913392
+      Atlas interfaces_29: -1193526977
+      Atlas interfaces_3: 147533912
+      Atlas interfaces_30: 2147263253
+      Atlas interfaces_31: -1955881793
+      Atlas interfaces_32: 558435084
+      Atlas interfaces_33: 1489771305
+      Atlas interfaces_34: -1417787958
+      Atlas interfaces_35: -1891036799
+      Atlas interfaces_36: -1683651025
+      Atlas interfaces_37: 537124441
+      Atlas interfaces_38: 1101877646
+      Atlas interfaces_39: 1561909844
+      Atlas interfaces_4: -1426087401
+      Atlas interfaces_40: 1779912750
+      Atlas interfaces_41: 1039312000
+      Atlas interfaces_42: -1205483648
+      Atlas interfaces_43: -872398768
+      Atlas interfaces_44: -2038430162
+      Atlas interfaces_45: 887651313
+      Atlas interfaces_5: -749619604
+      Atlas interfaces_6: 167333822
+      Atlas interfaces_7: 122963151
+      Atlas interfaces_8: 1645013223
+      Atlas interfaces_9: -1700208364
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

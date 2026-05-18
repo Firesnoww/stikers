@@ -6,7 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Stikermania/Scenas/Comic.unity
+    guid: 4669910f28fdba94a91e2d8a58838d5a
+  - enabled: 1
+    path: Assets/Stikermania/Scenas/Menu inicio.unity
+    guid: 756bf16ac1aa0c643b1d0f8bbc9d3ea2
+  - enabled: 1
+    path: Assets/Stikermania/Scenas/Nivel_1.unity
+    guid: e9017d5f96b9f09489b4b37e1d6eb914
+  - enabled: 1
+    path: Assets/Stikermania/Scenas/Nivel_2.unity
+    guid: 3fee84c047bc7dd41b4599541dfacb20
+  - enabled: 1
+    path: Assets/Stikermania/Scenas/Nivel_3.unity
+    guid: 45e24febcc1bce045b9c82e44de9e2f6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_UseUCBPForAssetBundles: 0
